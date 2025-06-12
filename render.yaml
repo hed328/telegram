@@ -1,0 +1,7 @@
+
+services:
+  - type: worker
+    name: telegram-video-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: "python main.py"
